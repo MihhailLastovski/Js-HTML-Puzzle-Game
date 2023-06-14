@@ -1,0 +1,23 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --main-color-bg-dark: #000;
+    --main-color-bg-light: #fff;
+    --main-color-text: #fff;
+}
+
+html, body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-color-bg-dark);
+}

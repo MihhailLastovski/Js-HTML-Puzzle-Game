@@ -1,0 +1,99 @@
+:root
+{
+    --img-width: 86px;
+    --img-height: 65px;
+    --border-color: black;
+}
+
+a
+{
+    display: flex;
+    margin: 0 auto 2rem auto;
+    color: var(--main-color-bg-light);
+    letter-spacing: 5px;
+    font-size: 52px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+section 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 1px white;
+}
+
+.container
+{
+    display: flex;
+    width: 800px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.table
+{
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+td
+{
+    border: 1px solid var(--border-color);
+    background-color: var(--main-color-bg-light);
+}
+
+span
+{
+    border-radius: 5px;
+}
+
+td, span
+{
+    width: var(--img-width);
+    height: var(--img-height);
+    background-repeat: no-repeat;
+}
+
+.reference 
+{
+    width: calc(var(--img-width)*3);
+    height: calc(var(--img-height)*3);
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    background-image: url("./../img/reference.jpg");
+    background-repeat: no-repeat;
+}
+
+.pieces
+{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 400px;
+    gap: 10px;
+    height: fit-content;
+    justify-content: space-evenly;
+}
+
+footer
+{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p 
+{
+    display: flex;
+    color: var(--main-color-bg-light);
+    margin: 0 auto 1rem auto;
+}
